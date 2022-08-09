@@ -1,0 +1,36 @@
+.shoppingCart {
+    position: fixed; /* Para que aparezca en la parte superior del lado derecho y que esté a un nivel principal para que ningun contenido tape lo que se muestre en nuestro carrito */
+    right: 0;
+    top: 0;
+    background-color: white;
+    width: 250px;
+    height: 100vh;
+    padding: 25px;
+    box-sizing: border-box;
+    box-shadow: 0 0 0px rgba(0, 0, 0, 0.4);
+    display: flex; /* Para que el contenido aparezca en forma de columna */
+    flex-direction: column;
+}
+
+.total {
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.empty {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.close {
+    background-color: #ffd500;
+    color: black;
+    font-weight: bold;
+    border: none;
+    font-size: 16px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}

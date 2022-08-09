@@ -1,5 +1,28 @@
-.container {
+.containerHome {
   padding: 0 2rem;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.banner {
+  background-color: black;
+  background-image: url(../public/img/banner.webp);
+  background-size: cover;
+  height: 500px;
+  box-sizing: border-box;
+
+}
+
+.bannerInfo {
+  width: 70%;
+  padding: 50px;
+  color: white;
+}
+
+.bannerBackground {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 500px;
+
 }
 
 .main {
